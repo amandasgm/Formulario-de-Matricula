@@ -1,0 +1,2 @@
+## FOCO EM TODOS OS ELEMENTOS DENTRO DO INPUT
+input[type="date"]:focus-within - por exemplo, no calendario da data de nascimento, quando o input do tipo data esta em foco, por padrao o calendario nao fara com q o input fique em foco tbm, sendo assim, confiuramos para que TUDO QUE ESTEJA DENTRO DO INPUT DO TIPO TAPA fique em focus
