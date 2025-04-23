@@ -20,7 +20,7 @@ body{
   --surface-secondary:#FEE7D6;
   --stroke-default:#d6d3d1;
   --stroke-highlight: #f3541c;
-  /* --surface-disabled:#E7E5E4; */
+  --surface-disabled:#E7E5E4;
 
   --semantic-error:#DC2626;
 
@@ -43,4 +43,16 @@ h1, h2{
 img{
   max-width: 100%;
   height: auto;
+}
+
+.flex{
+  display:flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.flex{
+  flex:2;
 }

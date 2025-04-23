@@ -14,3 +14,7 @@ legend{
   margin-bottom: 1.5rem;
   font: 600 1rem/1.25 var(--font-family);
 }
+
+fieldset + fieldset{
+  margin-top: 3rem;
+}
