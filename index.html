@@ -47,7 +47,7 @@
 
             <div class="textarea-wrapper">
               <label for="medical-info">Informações médicas</label>
-              <textarea cols="30" rows="6" name="medical-info" id="medical-info" placeholder="A criança possui alguma condiçao médica que a escola deve estar ciente?(Se sim, especifique)"></textarea>
+              <textarea cols="30" rows="6" name="medical-info" id="medical-info" placeholder="A criança possui alguma condiçao médica que a escola deve estar ciente? (Se sim, especifique)"></textarea>
             </div>
 
             <div class="droparea-wrapper">
@@ -73,7 +73,7 @@
 
             <div class="input-wrapper">
               <label for="cep">CEP</label>
-              <input type="text" name="cep" id="cep" value="12-345.678">
+              <input type="text" name="cep" id="cep" value="">
             </div>
 
             <div class="flex">
@@ -84,7 +84,7 @@
 
               <div class="input-wrapper flex-2">
                 <label for="number">Número</label>
-                <input type="number" name="number" id="number" value="123">
+                <input type="number" name="number" id="number" value="">
               </div>
             </div>
 
@@ -99,8 +99,39 @@
                 <input type="text" name="state" id="state" value="Bahia" disabled>
               </div>
             </div>
+          </fieldset>
+
+          <fieldset class="guardian">
+            <legend>Informações do responsável</legend>
+
+            <div class="input-wrapper">
+              <label for="guardian">Nome do responsável</label>
+              <input type="text" name="guardian" id="guardian" value="Amanda Santana Gama">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Celular</label>
+              <input type="tel" name="phone" id="phone" placeholder="(71) 99903-0109">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="email">E-mail</label>
+              <input required type="text" name="email" id="email" value="amanda.gsanta@gmail.com">
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="">
+                <span>Insira um e-mail válido</span>
+              </div>
+            </div>
+
+          </fieldset>
+
+          <fieldset class="options">
+            <legend>Opções de matrícula</legend>
+
             
           </fieldset>
+
         </form>
       </div>
     </main>
